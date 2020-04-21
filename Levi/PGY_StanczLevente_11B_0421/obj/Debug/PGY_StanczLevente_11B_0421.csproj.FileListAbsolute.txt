@@ -1,0 +1,15 @@
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\obj\Debug\PGY_StanczLevente_11B_0421.csprojAssemblyReference.cache
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\obj\Debug\MainWindow.g.cs
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\obj\Debug\App.g.cs
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\obj\Debug\PGY_StanczLevente_11B_0421_MarkupCompile.cache
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\obj\Debug\PGY_StanczLevente_11B_0421_MarkupCompile.lref
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\bin\Debug\PGY_StanczLevente_11B_0421.exe.config
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\bin\Debug\PGY_StanczLevente_11B_0421.exe
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\bin\Debug\PGY_StanczLevente_11B_0421.pdb
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\obj\Debug\MainWindow.baml
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\obj\Debug\PGY_StanczLevente_11B_0421.g.resources
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\obj\Debug\PGY_StanczLevente_11B_0421.Properties.Resources.resources
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\obj\Debug\PGY_StanczLevente_11B_0421.csproj.GenerateResource.cache
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\obj\Debug\PGY_StanczLevente_11B_0421.csproj.CoreCompileInputs.cache
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\obj\Debug\PGY_StanczLevente_11B_0421.exe
+C:\Users\Levi\source\repos\PGY_StanczLevente_11B_0421\PGY_StanczLevente_11B_0421\obj\Debug\PGY_StanczLevente_11B_0421.pdb

@@ -1,0 +1,41 @@
+﻿<Window x:Class="PGY_StanczLevente_11B_0421.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PGY_StanczLevente_11B_0421"
+        mc:Ignorable="d"
+        Title="Trefort Pizza" Height="450" Width="800">
+    <Grid>
+        <GroupBox x:Name="groupBox" Header="Pizza mérete:" HorizontalAlignment="Left" Height="170" Margin="10,10,0,0" VerticalAlignment="Top" Width="252" FontSize="16" FontWeight="Bold">
+            <StackPanel HorizontalAlignment="Left" Height="120" Margin="10,10,0,0" VerticalAlignment="Top" Width="220">
+                <RadioButton x:Name="RB_32" Content="32 cm" Height="40" IsChecked="True" Checked="RB_32_Checked"/>
+                <RadioButton x:Name="RB_45" Content="45 cm" Height="40" IsChecked="False" Checked="RB_45_Checked"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="groupBox1" Header="Pizza szósz" HorizontalAlignment="Left" Height="224" Margin="10,185,0,0" VerticalAlignment="Top" Width="252" FontSize="16" FontWeight="Bold">
+            <StackPanel HorizontalAlignment="Left" Height="180" Margin="10,10,0,0" VerticalAlignment="Top" Width="220">
+                <RadioButton x:Name="RB_pdszósz" Content="Paradicsom szósz" Height="40" Checked="radioButton_Checked" IsChecked="True"/>
+                <RadioButton x:Name="RB_tejföl" Content="Tejföl" Height="40" IsChecked="False" Checked="RB_tejföl_Checked"/>
+                <RadioButton x:Name="RB_chili" Content="Chili" Height="40" IsChecked="False" Checked="RB_chili_Checked"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="groupBox1_Copy" Header="Feltét" HorizontalAlignment="Left" Height="399" Margin="267,10,0,0" VerticalAlignment="Top" Width="250" FontSize="16" FontWeight="Bold">
+            <StackPanel HorizontalAlignment="Left" Height="340" Margin="10,10,0,0" VerticalAlignment="Top" Width="220">
+                <CheckBox x:Name="CHB_bacon" Content="Bacon" Height="40" Checked="CHB_bacon_Checked"/>
+                <CheckBox x:Name="CHB_sonka" Content="Sonka" Height="39" Checked="CHB_sonka_Checked"/>
+                <CheckBox x:Name="CHB_szalámi" Content="Szalámi" Height="40" Checked="CHB_szalámi_Checked"/>
+                <CheckBox x:Name="CHB_tarja" Content="Tarja" Height="41" Checked="CHB_tarja_Checked"/>
+                <CheckBox x:Name="CHB_kolbász" Content="Kolbász" Height="40" Checked="CHB_kolbász_Checked"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="groupBox1_Copy1" Header="Sajt" HorizontalAlignment="Left" Height="244" Margin="522,10,0,0" VerticalAlignment="Top" Width="260" FontSize="16" FontWeight="Bold">
+            <StackPanel HorizontalAlignment="Left" Height="200" Margin="10,10,0,0" VerticalAlignment="Top" Width="230">
+                <CheckBox x:Name="CHB_mozarella" Content="Mozarella" Height="40"/>
+                <CheckBox x:Name="CHB_márványsajt" Content="Márványsajt" Height="40"/>
+            </StackPanel>
+        </GroupBox>
+        <Button x:Name="BTN_megrendel" Content="Megrendel" HorizontalAlignment="Left" Margin="522,259,0,0" VerticalAlignment="Top" Width="260" Height="150" Click="BTN_megrendel_Click" FontSize="30" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
