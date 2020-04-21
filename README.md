@@ -1,7 +1,7 @@
 # PGY_0421 
 
 ### Leírás
-Form készítés
+CSharp Form készítés
 
 A "megrendel" gomb feladata:
 összesítse az adatokat, melyeket a felhasználó választ ki.
