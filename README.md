@@ -12,10 +12,10 @@ Ha a felhasználó 3-nál több feltétet választana ki, akkor figyelmeztessük
 A felhasználó alert-ek segítségével kommunikáljunk.
 
 ### Terv
-** felület elkészítése
-** Esetlegesen a több mint 3 feltétel lekezelése, a feltétel kiválasztásakor
-** "megrendel" funkció
-- validálás
-  - legalább 1 feltét vagy sajt
-  - ha nem kezeltük le a 3-nál több feltétet, akkor itt kell
-- ki íratás fájlba
+**- felület elkészítése**
+**- Esetlegesen a több mint 3 feltétel lekezelése, a feltétel kiválasztásakor**
+**- "megrendel" funkció**
+  - validálás
+    - legalább 1 feltét vagy sajt
+    - ha nem kezeltük le a 3-nál több feltétet, akkor itt kell
+  - ki íratás fájlba

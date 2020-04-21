@@ -19,7 +19,6 @@ namespace PGY_StanczLevente_11B_0421
 
     public partial class MainWindow : Window
     {
-        private int sonkaCounter = 0;
         private int cbCounter = 0;
 
         public MainWindow()
@@ -29,7 +28,6 @@ namespace PGY_StanczLevente_11B_0421
 
         private void BTN_megrendel_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Sonka darab: " + sonkaCounter);
 
             // Kiíratás
             FileStream fs = new FileStream("rendelés.txt", FileMode.Create);
@@ -59,8 +57,6 @@ namespace PGY_StanczLevente_11B_0421
             fs.Close();
             // Kiíratás vége
         }
-
-        private int checkcounter = 0;
 
         /////////
         private void RB_32_Checked(object sender, RoutedEventArgs e)
@@ -95,17 +91,13 @@ namespace PGY_StanczLevente_11B_0421
         {
             CheckBox cb = (CheckBox)sender;
             
-            if (cb.IsChecked == true) { cbCounter--; }
-            else { cbCounter++; }
-
+            if (cb.IsChecked == true) { cbCounter++; } 
+            else { cbCounter--; }
+            
             if (cbCounter > 3)
             {
-                MessageBox.Show("Max 3 feltét választható! " + sonkaCounter);
-                cbCounter--;
-            }
-            else
-            {
-                cb.IsChecked = !cb.IsChecked;
+                MessageBox.Show("Max 3 feltét választható !!!");
+                cb.IsChecked = false;
             }
         }
 

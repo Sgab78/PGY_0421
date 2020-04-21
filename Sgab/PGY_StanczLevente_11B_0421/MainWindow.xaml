@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PGY_StanczLevente_11B_0421"
         mc:Ignorable="d"
-        Title="Trefort Pizza" Height="450" Width="800">
+        Title="Trefort Pizza" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
         <GroupBox x:Name="groupBox" Header="Pizza mérete:" HorizontalAlignment="Left" Height="170" Margin="10,10,0,0" VerticalAlignment="Top" Width="252" FontSize="16" FontWeight="Bold">
             <StackPanel HorizontalAlignment="Left" Height="120" Margin="10,10,0,0" VerticalAlignment="Top" Width="220">
@@ -22,11 +22,11 @@
         </GroupBox>
         <GroupBox x:Name="groupBox1_Copy" Header="Feltét" HorizontalAlignment="Left" Height="399" Margin="267,10,0,0" VerticalAlignment="Top" Width="250" FontSize="16" FontWeight="Bold">
             <StackPanel HorizontalAlignment="Left" Height="340" Margin="10,10,0,0" VerticalAlignment="Top" Width="220">
-                <CheckBox x:Name="CHB_bacon" Content="Bacon" Height="40" Click="CB_Checked"/>
-                <CheckBox x:Name="CHB_sonka" Content="Sonka" Height="39" Click="CB_Checked"/>
-                <CheckBox x:Name="CHB_szalámi" Content="Szalámi" Height="40" Click="CB_Checked"/>
-                <CheckBox x:Name="CHB_tarja" Content="Tarja" Height="41" Click="CB_Checked"/>
-                <CheckBox x:Name="CHB_kolbász" Content="Kolbász" Height="40" Click="CB_Checked"/>
+                <CheckBox x:Name="CHB_bacon" Content="Bacon" Height="40" Checked="CB_Checked" Unchecked="CB_Checked" />
+                <CheckBox x:Name="CHB_sonka" Content="Sonka" Height="39" Checked="CB_Checked" Unchecked="CB_Checked"/>
+                <CheckBox x:Name="CHB_szalámi" Content="Szalámi" Height="40" Unchecked="CB_Checked" Checked="CB_Checked"/>
+                <CheckBox x:Name="CHB_tarja" Content="Tarja" Height="41" Checked="CB_Checked" Unchecked="CB_Checked"/>
+                <CheckBox x:Name="CHB_kolbász" Content="Kolbász" Height="40" Unchecked="CB_Checked" Checked="CB_Checked"/>
             </StackPanel>
         </GroupBox>
         <GroupBox x:Name="groupBox1_Copy1" Header="Sajt" HorizontalAlignment="Left" Height="244" Margin="522,10,0,0" VerticalAlignment="Top" Width="260" FontSize="16" FontWeight="Bold">
