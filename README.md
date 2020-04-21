@@ -15,11 +15,9 @@ A felhasználó alert-ek segítségével kommunikáljunk.
 
 ### Terv
 
-**- felület elkészítése**
-
-**- esetlegesen a több mint 3 feltétel lekezelése, a feltétel kiválasztásakor**
-
-**- "megrendel" funkció**
+- felület elkészítése
+- esetlegesen a több mint 3 feltétel lekezelése, a feltétel kiválasztásakor
+- "megrendel" funkció
   - validálás
     - legalább 1 feltét vagy sajt
     - ha nem kezeltük le a 3-nál több feltétet, akkor itt kell
